@@ -4,7 +4,7 @@
   "license": "",
   "tags": ["placeholder"],
   "description": "Custom Mod Library for haxeflixel",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "classPath": "src/",
   "releasenote": "",
   "contributors": ["Bam"],
