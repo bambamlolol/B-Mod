@@ -1,13 +1,13 @@
 {
-  "name": "haxelib-template",
-  "url" : "https://github.com/BasicCorruption/haxelib-template",
+  "name": "B-Mod",
+  "url" : "https://github.com/bambamlolol/B-Mod",
   "license": "",
-  "tags": ["useless"],
-  "description": "this does something",
+  "tags": ["placeholder"],
+  "description": "Custom Mod Library for haxeflixel",
   "version": "1.0.0",
   "classPath": "src/",
   "releasenote": "",
-  "contributors": ["SidGames5"],
+  "contributors": ["Bam"],
   "dependencies": {},
   "main": "Main"
 }
