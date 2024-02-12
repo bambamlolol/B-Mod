@@ -6,14 +6,21 @@ class Paths {
 	    
 	public static function getPath(path:String):Dynamic {
 		var path = "mods/" + mod + "/" + path;
+		var assetsPath = "assets/" + mod + "/" + path;
 		if (sys.FileSystem.exists(path))
 		{
 			return sys.io.File.getContent(path);
 		}
 		else
 		{
-			return null;
-			trace("ERROR: FILE: " + image + " COULD NOT BE FOUND";
+			if (sys.FileSystem.exists(assetsPath))
+			{
+				return sys.io.File.getContent(assetsPath);
+			}
+			else {
+				return null;
+				trace("ERROR: FILE: " + image + " COULD NOT BE FOUND";
+			}
 		}
 	}
 
