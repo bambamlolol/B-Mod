@@ -5,7 +5,7 @@ class Paths {
 	var soundExtension = #if web "mp3" #else "ogg" #end;
 
 	public static function getImage(image:String):Dynamic {
-		var path = "assets/" + mod + "/images/" + image + ".png";
+		var path = "mods/" + mod + "/images/" + image + ".png";
 		if (sys.FileSystem.exists(path))
 		{
 			return sys.io.File.getContent(path);
@@ -18,7 +18,7 @@ class Paths {
 	}
 			      
 	public static function getSound(sound:String):Dynamic {
-		var path = "assets/" + mod + "/sounds/" + sound + "." + soundExtension;
+		var path = "mods/" + mod + "/sounds/" + sound + "." + soundExtension;
 		if (sys.FileSystem.exists(path))
 		{
 			return sys.io.File.getContent(path);
@@ -31,7 +31,7 @@ class Paths {
 	}
 			      
 	public static function getMusic(music:String):Dynamic {
-		var path = "assets/" + mod + "/music/" + music + "." + soundExtension;
+		var path = "mods/" + mod + "/music/" + music + "." + soundExtension;
 		if (sys.FileSystem.exists(path))
 		{
 			return sys.io.File.getContent(path);
